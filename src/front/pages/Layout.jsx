@@ -15,7 +15,6 @@ export const Layout = () => {
 					left: 0,
 					width: "100%",
 					height: "100%",
-					backgroundImage: `url(${backgroundImg})`,
 					// También podés probar: "linear-gradient(135deg, #1a1a1a, #2e2e2e, #003333)"
 					backgroundSize: "cover",
 					backgroundPosition: "center",
