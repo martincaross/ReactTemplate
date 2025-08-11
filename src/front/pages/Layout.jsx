@@ -1,7 +1,7 @@
 import { Outlet } from "react-router-dom";
 import ScrollToTop from "../components/ScrollToTop";
 import { Navbar } from "../components/Navbar";
-// // import { Footer } from "../components/Footer";
+import { Footer } from "../components/Footer";
 import backgroundImg from "../assets/img/city_fondo3.jpg"; // Ruta correcta
 
 export const Layout = () => {

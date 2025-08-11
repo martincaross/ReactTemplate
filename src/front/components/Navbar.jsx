@@ -2,11 +2,11 @@ import { NavLink } from "react-router-dom";
 import logo from "../assets/img/beacon-sinfondo.png";
 
 const menuItems = [
-  { name: "Datos Básicos", path: "/datos-basicos" },
+  { name: "Datos Básicos", path: "/datos_basicos" },
   { name: "Empleo", path: "/empleo" },
-  { name: "Características de las Secciones", path: "/caracteristicas" },
+  { name: "Características de las Secciones", path: "/caracteristicas_secciones" },
   { name: "Informes", path: "/informes" },
-  { name: "Actividad Turística", path: "/actividad-turistica" },
+  { name: "Actividad Turística", path: "/actividad_turistica" },
 ];
 
 export const Navbar = () => {
