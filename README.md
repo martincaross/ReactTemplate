@@ -1,33 +1,30 @@
 <!-- Banner -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:5C258D,100:4389A2&height=180&section=header&text=Beacon%20🚨&fontSize=40&fontAlign=50&fontColor=ffffff" alt="banner"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:3A7BD5,100:00d2ff&height=180&section=header&text=Municipal%20Stats%20📊&fontSize=40&fontAlign=50&fontColor=ffffff" alt="banner"/>
 </p>
 
-<h3 align="center">Report urban issues in your city — quickly and anonymously</h3>
+<h3 align="center">Interactive Visualization of Municipal Statistics</h3>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Status-In%20Progress-yellow?style=flat-square" />
-  <img src="https://img.shields.io/badge/License-MIT-blue?style=flat-square" />
+  <img src="https://img.shields.io/badge/Status-Planning-blue?style=flat-square" />
+  <img src="https://img.shields.io/badge/License-MIT-green?style=flat-square" />
 </p>
 
 ---
 
 ## 📌 Overview
 
-**Beacon** is a web application that allows users to report imperfections or problems in their city, such as potholes, broken streetlights, or abandoned vehicles — easily, anonymously, and in just a few clicks.
-
-This app was created as the final project of the 4Geeks Academy Full Stack Developer Bootcamp, and is currently under development and improvement.
+**Municipal Stats** is a web application designed to display general statistics of a municipality, such as population data, employment, tourism, and other relevant indicators. The charts are interactive, and the app is planned to evolve into a robust backend system, starting with a simple backend for easier development.
 
 ---
 
 ## 🚀 Features
 
-- 📍 Location-based reports
-- 📝 Anonymous or authenticated submissions
-- 🖼️ Upload of photos with Cloudinary
-- 🔐 JWT + Firebase authentication
-- 🌐 RESTful API backend
-- 🧩 Responsive and user-friendly interface
+- 📊 Interactive visualization of statistical indicators
+- 🌐 React frontend with dynamic charts
+- ⚙️ Simple backend for data management with potential future migration
+- 💾 PostgreSQL database hosted on Neon
+- 📈 Support for multiple statistical areas and historical data
 
 ---
 
@@ -35,42 +32,19 @@ This app was created as the final project of the 4Geeks Academy Full Stack Devel
 
 **Frontend:**
 
-- JavaScript
 - React
-- HTML, CSS
+- JavaScript
 - Bootstrap
 
 **Backend:**
 
-- Python
-- Flask
-- RESTful APIs
+- Node.js (or Python/Flask, as preferred)
+- RESTful API
 
 **Database:**
 
 - PostgreSQL
-- SQLAlchemy
-- Neon
-
-**Authentication:**
-
-- JWT
-- Firebase
-
-**Third-party services:**
-
-- Cloudinary
-- Render
-
-**Version control:**
-
-- Git & GitHub
-
----
-
-## 📷 Screenshots
-
-> *(Add screenshots or GIFs here when ready)*
+- Neon (cloud)
 
 ---
 
@@ -79,5 +53,5 @@ This app was created as the final project of the 4Geeks Academy Full Stack Devel
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/tu-usuario/beacon.git
-cd beacon
+git clone https://github.com/your-username/municipal-stats.git
+cd municipal-stats
